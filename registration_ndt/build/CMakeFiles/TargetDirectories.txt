@@ -1,3 +1,0 @@
-C:/Users/GENG/Desktop/code/registration_ndt/build/CMakeFiles/REGISTRATION_NDT.dir
-C:/Users/GENG/Desktop/code/registration_ndt/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/GENG/Desktop/code/registration_ndt/build/CMakeFiles/ZERO_CHECK.dir
