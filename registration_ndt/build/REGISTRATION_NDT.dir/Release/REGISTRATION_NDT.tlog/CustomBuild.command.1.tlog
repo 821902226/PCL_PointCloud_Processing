@@ -1,0 +1,10 @@
+^C:\USERS\GENG\DESKTOP\CODE\REGISTRATION_NDT\CMAKELISTS.TXT
+setlocal
+E:\Application\Cmake\bin\cmake.exe -SC:/Users/GENG/Desktop/code/registration_ndt -BC:/Users/GENG/Desktop/code/registration_ndt/build --check-stamp-file C:/Users/GENG/Desktop/code/registration_ndt/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
